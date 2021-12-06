@@ -27,10 +27,10 @@ gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 gem 'friendly_id', '~> 5.1'
 gem 'devise', '~> 4.8'
 # gem 'impressionist', '~> 1.5', '>= 1.5.1'
-# gem 'trix', '~> 0.11.1'
+gem "paperclip", "~> 6.0.0"
 
 # Use Active Storage variant
-# gem 'image_processing', '~> 1.2'
+gem 'image_processing', '~> 1.2'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
