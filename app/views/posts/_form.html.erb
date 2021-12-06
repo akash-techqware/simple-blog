@@ -13,12 +13,13 @@
 
   <div class="field form-group" >
     <%= form.label :title %>
-    <%= form.text_field :title, class: "form-control" %>
+    <%= form.text_field :title, require: true, class: "form-control" %>
   </div>
+
 
   <div class="field form-group" >
     <%= form.label :description %>
-    <%= form.text_area :description, class: "form-control" %>
+    <%= form.rich_text_area :description, class: "form-control" %>
   </div>
 
   <div class="actions">
